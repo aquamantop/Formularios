@@ -39,7 +39,7 @@ header div {
 
 /* Sector principal */
 legend {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 #inicioSesion {
@@ -50,6 +50,7 @@ legend {
     align-items: center
 }
 #registro {
+    margin: -10vh 0vw 3vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -62,12 +63,36 @@ legend {
     align-items: center;
 }
 
+/* Formularios */
+#usuario {
+    width: 31vw;
+    height: 4vh;
+}
+#clave {
+    width: 31vw;
+    height: 4vh;
+}
+
+/* Boton */
+.boton {
+    background-color: #1CD1B0;
+    border-radius: 2vw;
+    font-size: 1rem;
+    border: none;
+    padding: 1.3vh 15vw;
+}
+
+/* Salto a pagina de registro */
+#paginaRegistro {
+    font-size: 0.8rem;
+}
+
 /* Pie de página */
 footer {
     color: white;
     position: absolute;
     width: 99%;
-    top: 100%;
+    top: 92.5%;
     text-align: center;
     background-color: #00669F;
 }

@@ -25,16 +25,19 @@
     <main>
         <form id="inicioSesion" action="js">
             <legend>Login</legend>
+            <br>
             <label for="usuario"> 
                 <input type="text" name="nombre" id="usuario" placeholder="Usuario">
             </label>
+            <br>
             <label for="clave">
                 <input type="password" name="contraseña" id="clave" placeholder="Contraseña">
             </label>
             <br>
-            <input type="submit" name="enviar" value="Entrar">
             <br>
-            <span>Registrarme <a href="/registro.html">¿No tienes una cuenta? </a></span>
+            <input class="boton" type="submit" name="enviar" value="Entrar">
+            <br>
+            <span id="paginaRegistro">Registrarme <a href="/registro.html">¿No tienes una cuenta? </a></span>
         </form>
     </main>
 
