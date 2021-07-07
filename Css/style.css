@@ -156,8 +156,8 @@ footer {
     background-color: #00669F;
 }
 
-/* Media queries */
-@media (max-width: 600px) {
+/* Media queries pantallas chicas*/
+@media (max-width: 768px) {
 /* Estructura */
     #registro {
         margin-top: 6vh;
@@ -189,7 +189,7 @@ footer {
         width: 80%;
     }
 }
-
+/* pantallas grandes */
 @media (min-width: 1800px) {
     #top {
         padding: 1vh 0vw;
