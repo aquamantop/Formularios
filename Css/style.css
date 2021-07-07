@@ -27,7 +27,7 @@ body {
     margin-top: -0.6%;
     background-color: #1CD1B0;
 }
-header div {
+.empresa {
     background-color: #00669F;
     margin-bottom: 10%;
     margin-top: -1.2%;
@@ -35,6 +35,28 @@ header div {
 #titulo {
     color: white;
     font-size: 2rem;
+}
+.links {
+    background-color: #001D2D;
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: right;
+}
+header a:link {
+    text-decoration: none;
+    color: white;
+}
+header a:visited {
+    text-decoration: none;
+    color: #6287ff;
+}
+header a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+header a:hover {
+    text-decoration: none;
+    color: #003cff;
 }
 
 /* Sector principal */
