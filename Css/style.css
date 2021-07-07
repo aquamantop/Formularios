@@ -189,3 +189,9 @@ footer {
         width: 80%;
     }
 }
+
+@media (min-width: 1800px) {
+    #top {
+        padding: 1vh 0vw;
+    }
+}
