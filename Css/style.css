@@ -57,6 +57,9 @@ legend {
     align-items: center;
 }
 #contacto {
+    margin: -10vh 0vw 3vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,6 +75,14 @@ legend {
     width: 31vw;
     height: 4vh;
 }
+#correo {
+    width: 31vw;
+    height: 4vh;
+}
+#opciones {
+    width: 31.6vw;
+    height: 4.7vh;
+}
 
 /* Boton */
 .boton {
@@ -81,9 +92,28 @@ legend {
     border: none;
     padding: 1.3vh 15vw;
 }
+.boton1 {
+    background-color: #888888;
+    margin-right: 0.3vw;
+    border-radius: 1.2vw;
+    font-size: 1rem;
+    border: none;
+    padding: 1.3vh 6vw;
+}
+.boton2 {
+    background-color: #1CD1B0;
+    margin-left: 0.3vw;
+    border-radius: 1.2vw;
+    font-size: 1rem;
+    border: none;
+    padding: 1.3vh 6vw;
+}
 
-/* Salto a pagina de registro */
+/* Salto a pagina de registro y vuelta al index*/
 #paginaRegistro {
+    font-size: 0.8rem;
+}
+#ingresar {
     font-size: 0.8rem;
 }
 
@@ -95,4 +125,38 @@ footer {
     top: 92.5%;
     text-align: center;
     background-color: #00669F;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+/* Estructura */
+    #registro {
+        margin-top: 6vh;
+    }
+    #titulo {
+        font-size: 1.5rem;
+    }
+    #contacto {
+        margin-top: 3vh;
+    }
+/* Formularios */
+    #usuario {
+        width: 70vw;
+        height: 4vh;
+    }
+    #clave {
+        width: 70vw;
+        height: 4vh;
+    }
+    #correo {
+        width: 70vw;
+        height: 4vh;
+    }  
+    #opciones {
+        width: 72vw;
+        height: 4.7vh;
+    }
+    textarea {
+        width: 80%;
+    }
 }
