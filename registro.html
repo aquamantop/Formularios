@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+        <div>
+            <img src="./Img/logo.png" alt="Logo">
+            <p>Ituzapato</p>
+        </div>
+    </header>
+
+    <main>
+        <form id="registro" action="js">
+            <legend>Registro</legend>
+            <label for="usuario">
+                <input type="text" name="nombre" id="usuario" placeholder="Nombre y Apellido">
+            </label>
+            <label for="correo">
+                <input type="email" name="email" id="correo" placeholder="Correo Electrónico">
+            </label>
+            <label for="clave">
+                <input type="password" name="contraseña" id="clave" placeholder="Contraseña">
+            </label>
+            <select name="paises">
+                <option value="País">País</option>         
+                <option value="Arg">Argentina</option>
+                <option value="Col">Colombia</option>
+                <option value="Bra">Brasil</option>
+            </select>
+            <br>
+            <input type="reset" name="resetear" value="Resetear">
+            <input type="submit" name="registrar" value="Registrar">
+            <br>
+            <span>¿Ya tenés una cuenta?</span> <a href="./index.html">Ingresar</a>
+        </form>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a Ituzapato</p>
+    </footer>
+</body>
+</html>
