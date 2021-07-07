@@ -9,28 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <p id="top">20% de descuento en todos los productos!</p>
         <div>
             <img src="./Img/logo.png" alt="Logo">
-            <span id="titulo">Ituzapato</span>
+            <span id="titulo">Tienda De Juegos</span>
         </div>
     </header>
 
     <main>
         <form id="registro" action="js">
             <legend>Registro</legend>
+            <br>
             <label for="usuario">
                 <input type="text" name="nombre" id="usuario" placeholder="Nombre y Apellido">
             </label>
+            <br>
             <label for="correo">
                 <input type="email" name="email" id="correo" placeholder="Correo Electrónico">
             </label>
+            <br>
             <label for="clave">
                 <input type="password" name="contraseña" id="clave" placeholder="Contraseña">
             </label>
+            <br>
             <select name="paises">
                 <option value="País">País</option>         
                 <option value="Arg">Argentina</option>
@@ -41,12 +48,12 @@
             <input type="reset" name="resetear" value="Resetear">
             <input type="submit" name="registrar" value="Registrar">
             <br>
-            <span>¿Ya tenés una cuenta?</span> <a href="./index.html">Ingresar</a>
+            <span id="ingresar">¿Ya tenés una cuenta? <a href="./index.html">Ingresar</a></span> 
         </form>
     </main>
 
     <footer>
-        <p>Todos los derechos reservados a Ituzapato</p>
+        <p>Todos los derechos reservados a Franco</p>
     </footer>
 </body>
 </html>
