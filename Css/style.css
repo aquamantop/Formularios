@@ -1,4 +1,4 @@
-/* Fuente */
+/* Fuentes */
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -64,6 +64,45 @@ header a:active {
 header a:hover {
     text-decoration: none;
     color: #003cff;
+}
+/* Cards */
+#cards {
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.card {
+    margin: 0vh 4vw;
+    height: 71vh;
+    filter: drop-shadow(0vh 1vh 1vh #2e2e2e);
+    background-color: #e0e0e0;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.perfil {
+    position: absolute;
+    left: 7vw;
+    top: 19vh;
+    border-radius: 11vh;
+    z-index: 10;
+}
+.corazon {
+    position: absolute;
+    left: 1vw;
+    top: 2vh;
+    z-index: 15;}
+h2 {
+    margin-top: 8vh;
+    margin-bottom: -1vh;
+}
+.verMas {
+    padding: 0.6vh;
+    margin: 1vh 7vw;
 }
 
 /* Sector principal */
@@ -154,6 +193,9 @@ footer {
     top: 92.5%;
     text-align: center;
     background-color: #00669F;
+}
+#footerHeroes {
+    top: 110%;
 }
 
 /* Media queries pantallas chicas*/
