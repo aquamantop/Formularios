@@ -65,18 +65,24 @@ header a:hover {
     text-decoration: none;
     color: #003cff;
 }
+
+
 /* Cards */
 #cards {
     display: flex;
-    width: 90vw;
+    box-sizing: content-box;
+    width: 1%;
     height: 50vh;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 10%;
+    flex-wrap: wrap;
 }
 .card {
-    margin: 0vh 4vw;
-    height: 71vh;
+    margin: 40vh 3vw;
+    height: 74vh;
     filter: drop-shadow(0vh 1vh 1vh #2e2e2e);
     background-color: #e0e0e0;
     border-top-left-radius: 3vh;
@@ -102,7 +108,7 @@ h2 {
 }
 .verMas {
     padding: 0.6vh;
-    margin: 1vh 7vw;
+    margin: 0vh 7vw;
 }
 
 /* Sector principal */
@@ -195,7 +201,7 @@ footer {
     background-color: #00669F;
 }
 #footerHeroes {
-    top: 110%;
+    top: 115%;
 }
 
 /* Media queries pantallas chicas*/
