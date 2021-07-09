@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="top">20% de descuento en todos los productos!</p>
+        <div class="empresa">
+            <img src="./Img/logo.png" alt="Logo">
+            <span id="titulo">Tienda De Juegos</span>
+        </div>
+        <nav>
+            <ul type="none" class="links">
+                <li class="items"><a href="./heroes.html">Home</a></li>
+                <li class="items"><a href="./registro.html">Registrarse</a></li>
+                <li class="items"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="titulo">
+            <h2>¡Añadí tu super!</h2>
+            <h6>Agregá tu personaje favorito completando las opciones.</h6>
+        </div>
+        
+        <form id="cajaPadre">
+            <div id="titulo">
+                <h2>¡Añadí tu super!</h2>
+                <h6>Agregá tu personaje favorito completando las opciones.</h6>
+            </div>
+
+            <div id="contenedor1">
+                <label for="nombreSuper">Nombre
+                    <input type="text" id="nombreSuper" name="super">
+                </label>
+
+                <label for="calendario">Fecha
+                    <input type="date" id="calendario" name="fecha">
+                </label>
+
+                <label for="descripcion">
+                    <textarea name="describir" id="descripcion" cols="30" rows="10"></textarea>
+            </div>
+
+            <div id="contenedor2">
+                <label for="especieSuper">Especie
+                    <select name="especie" id="especieSuper">
+                        <option disabled value="select" selected>Especie</option>
+                        <option value="Tierra">Humano</option>
+                        <option value="Marte">Marciano</option>
+                        <option value="Desconocida">Desconocida</option>
+                    </select>
+                </label>
+                <label for="archivo">Agregar Foto
+                    <input type="file" name="subirArchivo">
+                </label>
+
+                <label for="poderes">Poderes
+                    <input type="checkbox" id="poderes" name="poderes">Volar
+                    <input type="checkbox" id="poderes" name="poderes">Superinteligencia
+                    <input type="checkbox" id="poderes" name="poderes">Vista de rayo láser
+                    <input type="checkbox" id="poderes" name="poderes">Billetera gorda
+                </label>
+
+                <label for="tipoPersonaje">
+                    <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Héroe / Heroina
+                    <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Villano / Villana
+                </label>
+            </div>
+
+            <input type="submit" value="Anadir">
+        </form>
+    </main>
+
+    <footer id="footerSuper">
+        <p>Todos los derechos reservados a Franco</p>
+    </footer>
+</body>
+</html>

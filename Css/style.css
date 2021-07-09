@@ -57,10 +57,6 @@ header a:visited {
     text-decoration: none;
     color: #6287ff;
 }
-header a:active {
-    text-decoration: none;
-    color: #ffffff;
-}
 header a:hover {
     text-decoration: none;
     color: #003cff;
@@ -140,6 +136,35 @@ legend {
     align-items: center;
 }
 
+/* Seccion de Añadir super */
+#titulo {
+    text-align: center;
+}
+#cajaPadre {
+    background-color: #00669F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor1 {
+
+    width: 25%;
+}
+#contenedor2 {
+
+    width: 25%;
+}
+
+#footerSuper {
+    top: 125%;
+}
+
+/* #botonAzul:hover {
+    background: url('/Img/botonNegro.png');
+} */
+
 /* Formularios */
 #usuario {
     width: 31vw;
@@ -158,7 +183,7 @@ legend {
     height: 4.7vh;
 }
 
-/* Boton */
+/* Boton de formularios */
 .boton {
     background-color: #1CD1B0;
     border-radius: 2vw;
