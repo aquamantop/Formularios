@@ -29,59 +29,67 @@
         </nav>
     </header>
 
-    <main>
-        <div id="titulo">
+    <main id="contenedor">
+        <div>
+            <section id="tituloSuper">
             <h2>¡Añadí tu super!</h2>
-            <h6>Agregá tu personaje favorito completando las opciones.</h6>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+            </section>
+            <form action="">
+                <section class="" id="hijos">
+                    <label class="before" for="nick">Nombre
+                        <br>
+                        <input class="estilo" type="text" name="nombre" id="nick">
+                    </label>
+                    <br>
+                    <label class="label" for="calendario">Fecha
+                        <br>
+                        <input class="estilo" type="date" name="fecha" id="calendario"> 
+                    </label>
+                    <br>
+                    <label for="descripcion">
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Descripcion"></textarea>
+                    </label>
+                </section>
+
+                <section id="hijos">
+                    <label class="before" for="especie">Especie
+                        <br>
+                        <select class="estilo" name="especie" id="especie">
+                            <option value="seleccion" disabled selected>Especie</option>
+                            <option value="Tierra">Humano</option>
+                            <option value="Marte">Marciano</option>
+                            <option value="Desconocida">Desconocida</option>
+                        </select>
+                    </label> 
+                    <br>
+                    <label class="label" id="foto" for="archivo">Agregar Foto
+                        <br>
+                        <input type="file" id="archivo" accept=".jpg, .png, .jpeg, .pdf">
+                    </label>
+                    <br>
+                    <label class="label" for="poderes">Poderes
+                        <br>
+                        <input type="checkbox" id="poderes" name="poderes">Volar
+                        <br>
+                        <input type="checkbox" id="poderes" name="poderes">Superinteligencia
+                        <br>
+                        <input type="checkbox" id="poderes" name="poderes">Vista de rayo láser
+                        <br>
+                        <input type="checkbox" id="poderes" name="poderes">Billetera gorda
+                    </label>
+                    <hr>
+                    <label class="label" for="tipoPersonaje">Tipo de Personaje
+                    <br>
+                        <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Héroe / Heroina
+                    <br>
+                        <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Villano / Villana
+                    </label>
+                </section>
+            </form>
+            <input id="añadir" type="submit" value="Añadir">
+
         </div>
-        
-        <form id="cajaPadre">
-            <div id="titulo">
-                <h2>¡Añadí tu super!</h2>
-                <h6>Agregá tu personaje favorito completando las opciones.</h6>
-            </div>
-
-            <div id="contenedor1">
-                <label for="nombreSuper">Nombre
-                    <input type="text" id="nombreSuper" name="super">
-                </label>
-
-                <label for="calendario">Fecha
-                    <input type="date" id="calendario" name="fecha">
-                </label>
-
-                <label for="descripcion">
-                    <textarea name="describir" id="descripcion" cols="30" rows="10"></textarea>
-            </div>
-
-            <div id="contenedor2">
-                <label for="especieSuper">Especie
-                    <select name="especie" id="especieSuper">
-                        <option disabled value="select" selected>Especie</option>
-                        <option value="Tierra">Humano</option>
-                        <option value="Marte">Marciano</option>
-                        <option value="Desconocida">Desconocida</option>
-                    </select>
-                </label>
-                <label for="archivo">Agregar Foto
-                    <input type="file" name="subirArchivo">
-                </label>
-
-                <label for="poderes">Poderes
-                    <input type="checkbox" id="poderes" name="poderes">Volar
-                    <input type="checkbox" id="poderes" name="poderes">Superinteligencia
-                    <input type="checkbox" id="poderes" name="poderes">Vista de rayo láser
-                    <input type="checkbox" id="poderes" name="poderes">Billetera gorda
-                </label>
-
-                <label for="tipoPersonaje">
-                    <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Héroe / Heroina
-                    <input type="radio" id="tipoPersonaje" name="tipoDePersonaje">Villano / Villana
-                </label>
-            </div>
-
-            <input type="submit" value="Anadir">
-        </form>
     </main>
 
     <footer id="footerSuper">
