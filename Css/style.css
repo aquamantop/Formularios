@@ -77,7 +77,8 @@ header a:hover {
 }
 .card {
     margin: 40vh 3vw;
-    height: 74vh;
+    height: 100vh;
+    padding-bottom: 3vh;
     filter: drop-shadow(0vh 1vh 1vh #2e2e2e);
     background-color: #e0e0e0;
     border-top-left-radius: 3vh;
@@ -102,8 +103,25 @@ h2 {
     margin-bottom: -1vh;
 }
 .verMas {
-    padding: 0.6vh;
+    padding: 1.2vh 0.5vw;
+    border-radius: 1rem;
     margin: 0vh 7vw;
+    background-color: #00669F;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.verMas a:link {
+    text-decoration: none;
+    color: white;
+}
+.verMas a:visited {
+    text-decoration: none;
+    color: #4b0077;
+}
+.verMas a:hover {
+    text-decoration: none;
+    color: rgb(13, 0, 88);
 }
 
 /* Sector principal */
@@ -213,7 +231,6 @@ hr {
     top: 130vh;
 }
 
-
 /* Formularios */
 #usuario {
     width: 31vw;
@@ -230,6 +247,12 @@ hr {
 #opciones {
     width: 31.6vw;
     height: 4.7vh;
+}
+
+/* Boton de añadir */
+#botonAzul {
+    position: fixed;
+    bottom: 8vh;
 }
 
 /* Boton de formularios */
