@@ -157,7 +157,7 @@ legend {
 #tituloSuper {
     text-align: center;
     font-size: 1.2rem;
-    margin-top: -12vh;
+    margin-top: -10vh;
 }
 #contenedor {
     font-weight: 100;
@@ -223,9 +223,9 @@ hr {
     border-radius: 1.4rem;
     border: none;
     font-size: 2rem;
-    left: 10vw;
-    top: 4vh;
-    padding: 2vh 8vw;
+    left: 12vw;
+    top: 1.5vh;
+    padding: 2vh 6vw;
 }
 #footerSuper{
     top: 130vh;
