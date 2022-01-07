@@ -300,9 +300,6 @@ footer {
     text-align: center;
     background-color: #00669F;
 }
-#footerHeroes {
-    
-}
 
 /* Media queries */
 @media (max-width: 320px) {
