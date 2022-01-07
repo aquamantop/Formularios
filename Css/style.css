@@ -64,20 +64,20 @@ header a:hover {
 
 /* Cards */
 #cards {
-    display: flex;
-    box-sizing: content-box;
-    width: 1%;
-    height: 50vh;
+    /* display: flex; */
+    /* box-sizing: content-box; */
+    /* width: 10vw;
+    height: 10vh; */
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-left: 8%;
-    margin-top: 10%;
-    flex-wrap: wrap;
+    /* margin-left: 5%;
+    margin-top: 10%; */
+    /* flex-wrap: wrap; */
 }
 .card {
-    margin: 40vh 3vw;
-    height: 100vh;
+    margin: 2vw;
+    height: 50vh;
     padding-bottom: 3vh;
     filter: drop-shadow(0vh 1vh 1vh #2e2e2e);
     background-color: #e0e0e0;
@@ -292,16 +292,20 @@ hr {
 footer {
     color: white;
     position: absolute;
-    width: 99%;
-    top: 92.5%;
+    margin: 0% -1%;
+    width: 100.6%;
+    top: 94.5%;
     text-align: center;
     background-color: #00669F;
 }
 #footerHeroes {
-    top: 115%;
+    
 }
 
-/* Media queries pantallas chicas*/
+/* Media queries */
+@media (max-width: 320px) {
+
+}
 @media (max-width: 768px) {
 /* Estructura */
     #registro {
