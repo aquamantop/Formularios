@@ -257,7 +257,7 @@ hr {
 }
 
 /* Boton de formularios */
-.boton {
+#boton {
     background-color: #1CD1B0;
     border-radius: 2vw;
     font-size: 1rem;
